@@ -1,0 +1,7 @@
+/home/globalsmile/.local/lib/python3.10/site-packages/pep8.py:110: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+..........................................................................................
+----------------------------------------------------------------------
+Ran 90 tests in 3.962s
+
+OK
