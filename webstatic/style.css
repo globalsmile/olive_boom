@@ -1,46 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+html {
+  scroll-behavior: smooth;
 }
+
+/* Global Styles */
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
 }
 
 h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.4rem;
-  font-weight: 800;
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
 }
 
 h4 {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-h5 {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #1d1d1d;
+  font-size: 20px;
+  color: #222;
 }
 
 h6 {
-  color: #d8d8d8;
+  font-weight: 700;
+  font-size: 12px;
 }
 
-hr {
-  width: 30px;
-  height: 2px;
-  background-color: #fb774b;
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
 }
