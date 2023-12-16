@@ -1,20 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio Project</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>OliveBoom</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+      section.intro {
+        background-image: url("https://placekitten.com/1600/600"); /* Replace with your actual image */
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+      }
 
-    <body>
+      section.project-info,
+      section.developer-story,
+      section.features,
+      section.about,
+      section.video,
+      section.links {
+        text-align: center;
+        padding: 80px 20px;
+      }
 
+      section.features,
+      section.about {
+        background-color: #fff;
+      }
 
-        <script src="script.js"></script>
-    </body>
+      nav {
+        margin-top: 20px;
+      }
 
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Your Portfolio Project</h1>
+      <nav>
+        <a href="#intro">Intro</a>
+        <a href="#project-info">Project Info</a>
+        <a href="#developer-story">Developer Story</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#video">Video</a>
+        <a href="#links">Explore</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro" class="intro">
+        <h2>Welcome to</h2>
+        <h1>Your Portfolio Project</h1>
+        <p>Building dreams into reality, one project at a time</p>
+        <a href="#links" class="button">Explore Now</a>
+      </section>
+
+      <section id="project-info" class="project-info">
+        <h2>About the Project</h2>
+        <p>
+          Describe your portfolio project here. Highlight key features,
+          technologies used, and any unique aspects that make it stand out.
+        </p>
+      </section>
+
+      <section id="developer-story" class="developer-story">
+        <h2>Developer Story</h2>
+        <p>
+          Share your journey as a developer. Talk about your passion, skills,
+          and what drives you to create meaningful projects. Feel free to
+          include any challenges you've overcome and lessons learned.
+        </p>
+      </section>
+
+      <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+          <img src="feature1-image.jpg" alt="Feature 1 Image" />
+          <h3>Feature 1: Awesome Functionality</h3>
+          <p>
+            Describe the first key feature of your project. Highlight its
+            importance and how it enhances the user experience.
+          </p>
+        </div>
+
+        <div class="feature">
+          <img src="feature2-image.jpg" alt="Feature 2 Image" />
+          <h3>Feature 2: Stunning Design</h3>
+          <p>
+            Describe the second key feature of your project. Discuss how the
+            design contributes to the overall aesthetics and usability.
+          </p>
+        </div>
+
+        <div class="feature">
+          <img src="feature3-image.jpg" alt="Feature 3 Image" />
+          <h3>Feature 3: Seamless Integration</h3>
+          <p>
+            Describe the third key feature of your project. Explain how it
+            seamlessly integrates with other technologies or services.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>
+          Share the personal story of what inspired the project. Include a
+          timeline and mention that this is a Portfolio Project for Holberton
+          School with a link.
+        </p>
+
+        <h3>Meet the Team</h3>
+        <p>
+          Connect with each team member on their LinkedIn, GitHub, and Twitter
+          profiles.
+        </p>
+        <ul>
+          <li>
+            <a href="link-to-linkedin-profile" target="_blank">LinkedIn</a>
+          </li>
+          <li><a href="link-to-github-profile" target="_blank">GitHub</a></li>
+          <li><a href="link-to-twitter-profile" target="_blank">Twitter</a></li>
+        </ul>
+
+        <p>
+          Explore the project's GitHub repository to see the code and
+          contribute.
+        </p>
+        <a href="link-to-github-repo" target="_blank" class="button"
+          >GitHub Repository</a
+        >
+      </section>
+
+      <section id="video" class="video">
+        <h2>Project Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/your-video-id"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="links" class="links">
+        <h2>Explore Further</h2>
+        <p>
+          Check out the deployed app and the project's GitHub repository to
+          learn more.
+        </p>
+        <a href="link-to-deployed-app" target="_blank" class="button"
+          >Visit App</a
+        >
+        <a href="link-to-github-repo" target="_blank" class="button"
+          >GitHub Repository</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your Portfolio Project. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
